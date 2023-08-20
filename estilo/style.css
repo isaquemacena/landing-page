@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin-top: 0;
+    padding: 0;
+}
+
+/* Logo e NavBar*/
+body {
+    background-color: #08065C;
+    background: linear-gradient(45deg, #08065C 0%, #110EC4 40%, #1511F7 100%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    width: 97vw;
+    margin: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    height: 7vh;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+nav a:hover{
+    color: #F25E5E;
+}
+
+/* Conteudo */
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 88vh;
+    width: 97vw;
+}
+
+h2 {
+    color: #F25E5E;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+form.cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: rgb(82, 82, 82);
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #F25E5E;
+    background-color: white;
+}
+
+input#btn {
+    cursor: pointer;
+    background-color: #F25E5E;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+input#btn:hover {
+    background-color: #f33b3b;
+}
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    color: #B6C5F2;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #B6C5F2;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
